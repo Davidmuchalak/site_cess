@@ -1,1 +1,178 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
 
+body {
+    background: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    background-color: #7401DF;
+    width: 100%;
+    height: 250px;
+    color: white;
+    display: flex;
+}
+
+
+
+.itemsDiv h1 {
+    
+    padding: 40px 0 40px 0;
+    margin-left: 20px;
+    font-size: 25px;
+    max-width: 740px;
+}
+
+.itemsDiv .initLi {
+    padding-right: 30px;
+}
+
+.logoImg  {
+    margin: 30px;
+    margin-left: 70px;
+    transition: .4s;
+}
+
+.logoImg:hover  {
+    transform: scale(1.05);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 20px;
+}
+
+
+.header li {
+    padding: 0 20px;
+    transition: .1s;
+}
+
+.header li:hover {
+    cursor: pointer;
+    color: #7AC1DF;
+    transform: scale(1.05);
+
+}
+
+.mainContainer {
+    height: 700px;
+    background: #B8A5A5;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    padding-top: 60px;
+    padding-right: 80px;
+    overflow: hidden;
+}
+
+@media (max-width: 1665px) {
+    .mainContainer {
+
+        flex-direction: column;
+        padding-right: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+.mainContainer .mainContainerImage img {
+    border-radius: 60px;
+    transition: .4s;
+
+}
+
+.mainContainer .mainContainerImage img:hover  {
+    transform: scale(1.05);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+.mainContainer .textContainer {
+    max-width: 600px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+  
+
+}
+
+.mainContainer .textContainer p {
+    margin: 20px 0;
+   
+}
+
+.AboutUs {
+    height: 300px;
+    background-color: #D3BCBC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.peopleContainer {
+    display: flex;
+}
+
+.peopleContainer img {
+    border-radius: 30%;
+
+}
+
+.peopleContainer .infoAboutPeople {
+    margin-left: 20px;
+}
+
+.peopleContainer .infoAboutPeople img {
+    padding-right: 10px;
+}
+.logod{
+	border-radius: 0%;
+}
+
+.digitalContainer {
+    height: 150px;
+    background: #E0CBCB;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+	
+
+.digitalResponsable {
+    display: flex;
+    align-items: center;
+}
+
+.digitalResponsable p {
+    margin-left: 20px;
+}
+.contato{
+	background-color:#ECCECE;
+	text-align:center;
+}
+.siga{
+	height: 100px;
+	background: #E0CBCB;
+	text-align:center;
+}
+.para{
+	background-color: #D3BCBC;
+	text-align:center;
+	color:#000000;
+	font-size:30px;
+}
